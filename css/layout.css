@@ -1,0 +1,29 @@
+html, body {overflow: hidden}
+
+.intro .bg {width: 100%;height: 100vh;background: url(../img/bg_1.jpg) center no-repeat;background-size: cover;display: flex;justify-content: center;align-items: center}
+.intro .box {position: relative;width: 535px;height: 535px;border: 10px solid #fff;display: flex;justify-content: center;align-items: center;flex-direction: column;transform: translateY(75px)}
+.intro .box:before {content: '';position: absolute;top: -150px;width: 216px;height: 68px;background: url(../img/white_logo.png) no-repeat;background-size: cover;left: 50%;margin-left: -108px;}
+.intro .box h1 {font-size: 67px;line-height: 100px;font-weight: 700;color: #fff}
+.intro .box p {margin: 45px 0 0;color: #fff;font-size: 30px}
+
+.wrap {display: flex;height: 100vh;justify-content: center;align-items: center;background: #000;}
+.page {color: #fff;width: 100%}
+.page .column {padding: 0 100px;display: flex;justify-content: space-between}
+.page .top {line-height: 54px;margin: 0 0 60px}
+.page .lot {font-size: 60px;font-weight: 700;color: #fcfd00}
+.page .price {line-height: 90px;align-items: flex-end;padding: 0 50px;padding-bottom: 20px;border-bottom: 1px solid #fff;width: calc(100% - 110px);margin: 0 auto}
+.page .price .txt {font-size: 50px;font-weight: 500;height: 50px;line-height: 50px;}
+.page .price .txt:before {content: '';background: url(../img/ico_1.png);width: 40px;height: 40px;background-size: cover;display: inline-block;margin: 0 15px 0 0}
+.page .price .num {font-size: 100px;font-family: 'Judson';}
+.page .price2 {line-height: 65px;align-items: flex-end;margin-bottom: 50px;}
+.page .price2 .txt {font-size: 40px;font-weight: 500;height: 50px;line-height: 50px;}
+.page .price2 .txt:before {content: '';background: url(../img/ico_2.png);width: 35px;height: 35px;background-size: cover;display: inline-block;margin: 0 15px 0 8px}
+.page .price2 .num {font-size: 60px;font-family: 'Judson';}
+.page .art .artist {max-width: 490px;padding-right: 60px}
+.page .art .artist .name {font-size: 50px;font-weight: 400;line-height: 1.4;font-weight: 300;margin: 0 0 70px}
+.page .art .artist .name b {display: block;font-size: 60px;line-height: 1}
+.page .art .artist .info {font-weight: 300}
+.page .art .artist .info .t1 {font-size: 40px;letter-spacing: -0.06em}
+.page .art .artist .info .t2 {font-size: 24px;word-break: keep-all}
+.page .img {max-width: 760px;min-height: 450px;width: 100%;display: flex;justify-content: flex-end;align-items: center}
+.page .art img {max-width: 100%;max-height: 500px}
